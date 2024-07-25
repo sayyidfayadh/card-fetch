@@ -14,13 +14,14 @@ function display(cart) {
             <div class="card-body">
               <h5 class="card-title">${item.title}</h5>
               <p class="card-text text-primary">Price:${item.price}</p>
+               <div class="discount text-success">
+               <p> ${item.discountPercentage}%off</p>
+            </div>
           
               <a href="#" class="btn btn-primary">Buy Now</a>
               <a href="#" class="btn btn-success ms-2">Add to cart</a>
             </div>
-            <div class="discount text-success">
-                ${item.discountPercentage}% OFF
-            </div>
+           
           </div>
           `
 

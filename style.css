@@ -11,15 +11,14 @@
 }
 
 .card{
-
 position: relative;
-    transition: all 0.1s ease-in;
+    transition: all 0.1s ease-out;
 }
 .card:hover{
   scale: 1.08;
   
 }
 .discount{
-  padding-bottom: 20px;
-  margin-left: 20px;
+  color: green;
+
 }
